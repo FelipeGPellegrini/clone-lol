@@ -26,9 +26,9 @@ main{
 }
 
 #logo{
-    width: 30vw;
+    
     display: flex;
-    margin-left: 60px;
+    margin-left: 30%;
     
 }
 
@@ -40,14 +40,14 @@ main{
 }
 
 #menu h1{
-    margin-left: 80px;
+    margin-left: 35%;
     font-size: 20px;
     margin-top: 30px;
 }
 
 #campotxt{
     display: flex;
-    margin-left: 20px;
+    margin-left: 20%;
     
     
     
@@ -65,7 +65,7 @@ main{
 
 #sociais{
     display: flex;
-    margin-left: 80px;
+    margin-left: 32.5%;
 }
 
 .social {
@@ -79,7 +79,7 @@ main{
 
 #save-login{
     margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 35%;
     font-size: 14px;
     font-weight: bolder;
 }
@@ -89,7 +89,7 @@ main{
 }
 
 #submit {
-    margin: 80px 0px 50px 120px;
+    margin: 80px 0px 100px 42.5%;
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -104,8 +104,9 @@ main{
 }
 
 .ajuda{
-    margin-left: 80px;
+    margin-left: -5%;
     font-size: 10px;
+    text-align: center;
 }
 
 a{

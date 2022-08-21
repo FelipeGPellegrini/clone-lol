@@ -22,7 +22,7 @@ main{
 
 #menu{
 
-    width: 25vw;
+    width: 320px;
     height: 100vh;
     background-color: white;
     box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.561);
@@ -59,8 +59,8 @@ main{
 .txt{
     padding: 15px;
     margin-top: 20px;
-    font-size: 8px;
-    font-weight: bolder;
+    font-size: 11px;
+    font-weight: bold;
     background-color: rgb(217, 217, 217);
     border: 0;
     border-radius: 3px;
@@ -92,7 +92,7 @@ main{
 }
 
 #submit {
-    margin: 80px 0px 50px 140px;
+    margin: 80px 25% 50px 42.5%;
     padding: 10px;
     width: 40px;
     height: 40px;
