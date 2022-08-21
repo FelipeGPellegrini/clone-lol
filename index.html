@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="style.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="stylecel.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+    <main>
+        <div id="menu">
+                <div id="logo">
+                    <img  src="imgs/logo-riot.png" alt="Logo Riot Games">
+                </div>
+
+                <h1>Fazer Login</h1>
+
+                <div id="campotxt">
+                    <form action="https://auth.riotgames.com/login#client_id=prod-xsso-leagueoflegends&code_challenge=75AsHpXy79cbeouzj183F_3Oyi5eyLTEj2NonAj8GIA&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fxsso.leagueoflegends.com%2Fredirect&response_type=code&scope=openid%20account&state=4bbe5a4a8707866ad34b3e930e" autocomplete="off">
+                        <input class="txt" type="text" name="nome" id="inome" placeholder="NOME DE USUÁRIO" size="40" required>
+
+                        <input class="txt" type="password" name="senha" id="isenha" placeholder="SENHA" size="40" required>
+                    
+                </div>
+
+                <div id="sociais">
+                    <a target="_blank" href="https://pt-br.facebook.com/login/device-based/regular/login/"><img class="social" src="imgs/logo-facebook.png" alt="facebook"></a>
+
+                    <a target="_blank" href="https://accounts.google.com/login?hl=pt-br"><img class="social"  src="imgs/logo-google.png" alt="google"></a>
+
+
+                </div>
+
+                <div id="save-login">
+                    <label for="imlogin">
+                        <input id="imlogin" type="checkbox"> Manter login
+                    </label>
+                </div>
+
+                <input id="submit" type="submit" value="→">
+
+            </form>
+
+            <a target="_blank" href="https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201761944-Problemas-ao-iniciar-sessão">
+                <p class="ajuda">Não consegue iniciar sessão?</p>
+            </a>
+            <a target="_blank" href="https://signup.leagueoflegends.com/pt-br/signup/index#/">
+                <p class="ajuda">Cria conta</p>
+            </a>
+        </div>
+
+        
+
+    </main>
+    <footer>
+        <p class="mycredit">Site criado por <a href="https://github.com/FelipeGPellegrini">Felipe Pellegrini</a></p>
+    </footer>
+    
+</body>
+</html>
